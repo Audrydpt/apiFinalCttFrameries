@@ -1,0 +1,2736 @@
+{
+  "actualite": [
+    {
+      "id": "1mqsvb",
+      "title": "Actualité 1",
+      "content": "Contenu de l'actualité 1",
+      "imageUrl": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751738204/art1-JOHAN_VET_znfi0c.png",
+      "redirectUrl": "https://www.sudinfo.be/id1011200/article/2025-06-25/tennis-de-table-johan-beghin-de-quievrain-brille-leuro-veterans-seulement-battu?utm_campaign=pushs&utm_source=Facebook&utm_medium=fb_page_lp_sports_ENA&fbclid=IwY2xjawLYZPNleHRuA2FlbQIxMQBicmlkETA5MW9Zd0ZxSUE3VWNvTmx6AR6FLDews963C1QG5GVbrfBNXD7Ni1tb1GS-0zJyiGFVLLRt5wjl65FYff4eRQ_aem_r5CyfV8pTKbH0k3c1F1HEQ",
+      "order": 1
+    },
+    {
+      "id": "2swbgsbv",
+      "title": "Actualité 2",
+      "content": "Contenu de l'actualité 2",
+      "imageUrl": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751736862/cwtcapgd9s25y02mlhhi.png",
+      "redirectUrl": "",
+      "order": 2
+    },
+    {
+      "id": "3fsqfgebv",
+      "title": "Actualité 3",
+      "content": "Contenu de l'actualité 3",
+      "imageUrl": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751738266/art3-ENZO_TRANSFERT_let0kk.jpg",
+      "redirectUrl": "",
+      "order": 3
+    }
+
+  ],
+
+  "images": [
+    {
+      "id": "img1",
+      "label": "JOHAN_VET",
+      "url": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751738204/art1-JOHAN_VET_znfi0c.png",
+      "type": "image"
+    },
+    {
+      "id": "img2",
+      "label": "SALLE",
+      "url": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751736862/cwtcapgd9s25y02mlhhi.png",
+      "type": "image"
+    },
+    {
+      "id": "img3",
+      "label": "ENZO_TRANSFERT",
+      "url": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751738266/art3-ENZO_TRANSFERT_let0kk.jpg",
+      "type": "image"
+    },
+    {
+      "id": "img4",
+      "label": "sponsor1",
+      "url": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751835190/1a81cc32-e14d-4c1c-8b97-fd7c56beae20_xykh8a.jpg",
+      "type": "image"
+    },
+    {
+      "id": "img5",
+      "label": "sponsor2",
+      "url": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751835207/f84c2f75-9d65-43c9-b313-18b5e7c65316_v5mclm.jpg",
+      "type": "image"
+    },
+    {
+      "id": "img6",
+      "label": "sponsor3",
+      "url": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751835201/328d23da-74f7-4cdc-81cd-33db4ff9ce3b_dpqqyi.jpg",
+      "type": "image"
+    }
+  ],
+
+
+
+
+
+  "membres": [
+    {
+      "id": "1sg2",
+      "supabase_uid": "097c9bd3-dd6e-41fa-adb7-f89d6f9e61c2",
+      "nom": "Dupont",
+      "prenom": "Audry",
+      "role": "joueur",
+      "classement": "C2",
+      "telephone": "0468/36.02.97",
+      "statistiques": [],
+      "commandes": []
+    }
+
+  ],
+
+
+  "sponsors": [
+    {
+      "id": "1",
+      "name": "Sponsor 1",
+      "texte": "Sponsor 1 description",
+      "logoUrl": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751835190/1a81cc32-e14d-4c1c-8b97-fd7c56beae20_xykh8a.jpg",
+      "redirectUrl": "",
+      "order": 1
+    },
+    {
+      "id": "2",
+      "name": "Sponsor 2",
+      "texte": "Sponsor 2 description",
+      "logoUrl": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751835207/f84c2f75-9d65-43c9-b313-18b5e7c65316_v5mclm.jpg",
+      "redirectUrl": "",
+      "order": 2
+    },
+    {
+      "id": "3",
+      "name": "Sponsor 3",
+      "texte": "Sponsor 3 description",
+      "logoUrl": "https://res.cloudinary.com/dsrrxx5yx/image/upload/v1751835201/328d23da-74f7-4cdc-81cd-33db4ff9ce3b_dpqqyi.jpg",
+      "redirectUrl": "",
+      "order": 3
+    }
+  ],
+  "saisons": [
+    {
+      "id": "saison-2024-2025",
+      "label": "Saison 2024-2025",
+      "statut": "Terminée",
+      "equipesClub": [
+        {
+          "id": "club-a",
+          "nom": "CTT Frameries A",
+          "serieId": "serie-a"
+        },
+        {
+          "id": "club-b",
+          "nom": "CTT Frameries B",
+          "serieId": "serie-b"
+        }
+      ],
+      "series": [
+        {
+          "id": "serie-a",
+          "nom": "Série A",
+          "equipes": [
+            {
+              "id": "a-1",
+              "nom": "Gpv Ath D",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-2",
+              "nom": "Palette Huissignies B",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-3",
+              "nom": "Acren B",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-4",
+              "nom": "Pg Quaregnon/Wasmuel B",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-5",
+              "nom": "Hyon - Cuesmes E",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-6",
+              "nom": "R.R. Basecles F",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-7",
+              "nom": "Royal Trefle Lens - Herchies A",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-8",
+              "nom": "Palette Leuzoise C",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-9",
+              "nom": "Allain C",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-10",
+              "nom": "Antoing A",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "a-11",
+              "nom": "Cajmir F",
+              "serieId": "serie-a"
+            },
+            {
+              "id": "club-a",
+              "nom": "CTT Frameries A",
+              "serieId": "serie-a"
+            }
+          ]
+        },
+        {
+          "id": "serie-b",
+          "nom": "Série B",
+          "equipes": [
+            {
+              "id": "b-1",
+              "nom": "Gpv Ath D",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-2",
+              "nom": "Palette Huissignies B",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-3",
+              "nom": "Acren B",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-4",
+              "nom": "Pg Quaregnon/Wasmuel B",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-5",
+              "nom": "Hyon - Cuesmes E",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-6",
+              "nom": "R.R. Basecles F",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-7",
+              "nom": "Royal Trefle Lens - Herchies A",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-8",
+              "nom": "Palette Leuzoise C",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-9",
+              "nom": "Allain C",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-10",
+              "nom": "Antoing A",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "b-11",
+              "nom": "Bon-Secours G",
+              "serieId": "serie-b"
+            },
+            {
+              "id": "club-b",
+              "nom": "CTT Frameries B",
+              "serieId": "serie-b"
+            }
+          ]
+        }
+      ],
+      "calendrier": [
+        {
+          "id": "match-serie-a-s1-1",
+          "serieId": "serie-a",
+          "semaine": 1,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s1-2",
+          "serieId": "serie-a",
+          "semaine": 1,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s1-3",
+          "serieId": "serie-a",
+          "semaine": 1,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s1-4",
+          "serieId": "serie-a",
+          "semaine": 1,
+          "domicile": "Acren B",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s1-5",
+          "serieId": "serie-a",
+          "semaine": 1,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s1-6",
+          "serieId": "serie-a",
+          "semaine": 1,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s2-1",
+          "serieId": "serie-a",
+          "semaine": 2,
+          "domicile": "Antoing A",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s2-2",
+          "serieId": "serie-a",
+          "semaine": 2,
+          "domicile": "Allain C",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s2-3",
+          "serieId": "serie-a",
+          "semaine": 2,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s2-4",
+          "serieId": "serie-a",
+          "semaine": 2,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s2-5",
+          "serieId": "serie-a",
+          "semaine": 2,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s2-6",
+          "serieId": "serie-a",
+          "semaine": 2,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s3-1",
+          "serieId": "serie-a",
+          "semaine": 3,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s3-2",
+          "serieId": "serie-a",
+          "semaine": 3,
+          "domicile": "Antoing A",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s3-3",
+          "serieId": "serie-a",
+          "semaine": 3,
+          "domicile": "Cajmir F",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s3-4",
+          "serieId": "serie-a",
+          "semaine": 3,
+          "domicile": "Gpv Ath D",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s3-5",
+          "serieId": "serie-a",
+          "semaine": 3,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s3-6",
+          "serieId": "serie-a",
+          "semaine": 3,
+          "domicile": "Acren B",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s4-1",
+          "serieId": "serie-a",
+          "semaine": 4,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s4-2",
+          "serieId": "serie-a",
+          "semaine": 4,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s4-3",
+          "serieId": "serie-a",
+          "semaine": 4,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s4-4",
+          "serieId": "serie-a",
+          "semaine": 4,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s4-5",
+          "serieId": "serie-a",
+          "semaine": 4,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s4-6",
+          "serieId": "serie-a",
+          "semaine": 4,
+          "domicile": "Acren B",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s5-1",
+          "serieId": "serie-a",
+          "semaine": 5,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s5-2",
+          "serieId": "serie-a",
+          "semaine": 5,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s5-3",
+          "serieId": "serie-a",
+          "semaine": 5,
+          "domicile": "Allain C",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s5-4",
+          "serieId": "serie-a",
+          "semaine": 5,
+          "domicile": "Antoing A",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s5-5",
+          "serieId": "serie-a",
+          "semaine": 5,
+          "domicile": "Cajmir F",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s5-6",
+          "serieId": "serie-a",
+          "semaine": 5,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s6-1",
+          "serieId": "serie-a",
+          "semaine": 6,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s6-2",
+          "serieId": "serie-a",
+          "semaine": 6,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s6-3",
+          "serieId": "serie-a",
+          "semaine": 6,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s6-4",
+          "serieId": "serie-a",
+          "semaine": 6,
+          "domicile": "Acren B",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s6-5",
+          "serieId": "serie-a",
+          "semaine": 6,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s6-6",
+          "serieId": "serie-a",
+          "semaine": 6,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s7-1",
+          "serieId": "serie-a",
+          "semaine": 7,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s7-2",
+          "serieId": "serie-a",
+          "semaine": 7,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s7-3",
+          "serieId": "serie-a",
+          "semaine": 7,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s7-4",
+          "serieId": "serie-a",
+          "semaine": 7,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s7-5",
+          "serieId": "serie-a",
+          "semaine": 7,
+          "domicile": "Allain C",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s7-6",
+          "serieId": "serie-a",
+          "semaine": 7,
+          "domicile": "Antoing A",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s8-1",
+          "serieId": "serie-a",
+          "semaine": 8,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s8-2",
+          "serieId": "serie-a",
+          "semaine": 8,
+          "domicile": "Acren B",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s8-3",
+          "serieId": "serie-a",
+          "semaine": 8,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s8-4",
+          "serieId": "serie-a",
+          "semaine": 8,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s8-5",
+          "serieId": "serie-a",
+          "semaine": 8,
+          "domicile": "Cajmir F",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s8-6",
+          "serieId": "serie-a",
+          "semaine": 8,
+          "domicile": "Antoing A",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s9-1",
+          "serieId": "serie-a",
+          "semaine": 9,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s9-2",
+          "serieId": "serie-a",
+          "semaine": 9,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s9-3",
+          "serieId": "serie-a",
+          "semaine": 9,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s9-4",
+          "serieId": "serie-a",
+          "semaine": 9,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s9-5",
+          "serieId": "serie-a",
+          "semaine": 9,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s9-6",
+          "serieId": "serie-a",
+          "semaine": 9,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s10-1",
+          "serieId": "serie-a",
+          "semaine": 10,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s10-2",
+          "serieId": "serie-a",
+          "semaine": 10,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s10-3",
+          "serieId": "serie-a",
+          "semaine": 10,
+          "domicile": "Cajmir F",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s10-4",
+          "serieId": "serie-a",
+          "semaine": 10,
+          "domicile": "Antoing A",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s10-5",
+          "serieId": "serie-a",
+          "semaine": 10,
+          "domicile": "Allain C",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s10-6",
+          "serieId": "serie-a",
+          "semaine": 10,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s11-1",
+          "serieId": "serie-a",
+          "semaine": 11,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s11-2",
+          "serieId": "serie-a",
+          "semaine": 11,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s11-3",
+          "serieId": "serie-a",
+          "semaine": 11,
+          "domicile": "Acren B",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s11-4",
+          "serieId": "serie-a",
+          "semaine": 11,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s11-5",
+          "serieId": "serie-a",
+          "semaine": 11,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s11-6",
+          "serieId": "serie-a",
+          "semaine": 11,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s12-1",
+          "serieId": "serie-a",
+          "semaine": 12,
+          "domicile": "Cajmir F",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s12-2",
+          "serieId": "serie-a",
+          "semaine": 12,
+          "domicile": "Antoing A",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s12-3",
+          "serieId": "serie-a",
+          "semaine": 12,
+          "domicile": "Allain C",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s12-4",
+          "serieId": "serie-a",
+          "semaine": 12,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s12-5",
+          "serieId": "serie-a",
+          "semaine": 12,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s12-6",
+          "serieId": "serie-a",
+          "semaine": 12,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s13-1",
+          "serieId": "serie-a",
+          "semaine": 13,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s13-2",
+          "serieId": "serie-a",
+          "semaine": 13,
+          "domicile": "Cajmir F",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s13-3",
+          "serieId": "serie-a",
+          "semaine": 13,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s13-4",
+          "serieId": "serie-a",
+          "semaine": 13,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s13-5",
+          "serieId": "serie-a",
+          "semaine": 13,
+          "domicile": "Acren B",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s13-6",
+          "serieId": "serie-a",
+          "semaine": 13,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s14-1",
+          "serieId": "serie-a",
+          "semaine": 14,
+          "domicile": "Allain C",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s14-2",
+          "serieId": "serie-a",
+          "semaine": 14,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s14-3",
+          "serieId": "serie-a",
+          "semaine": 14,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s14-4",
+          "serieId": "serie-a",
+          "semaine": 14,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s14-5",
+          "serieId": "serie-a",
+          "semaine": 14,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s14-6",
+          "serieId": "serie-a",
+          "semaine": 14,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s15-1",
+          "serieId": "serie-a",
+          "semaine": 15,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s15-2",
+          "serieId": "serie-a",
+          "semaine": 15,
+          "domicile": "Allain C",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s15-3",
+          "serieId": "serie-a",
+          "semaine": 15,
+          "domicile": "Antoing A",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s15-4",
+          "serieId": "serie-a",
+          "semaine": 15,
+          "domicile": "Cajmir F",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s15-5",
+          "serieId": "serie-a",
+          "semaine": 15,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s15-6",
+          "serieId": "serie-a",
+          "semaine": 15,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s16-1",
+          "serieId": "serie-a",
+          "semaine": 16,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s16-2",
+          "serieId": "serie-a",
+          "semaine": 16,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s16-3",
+          "serieId": "serie-a",
+          "semaine": 16,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s16-4",
+          "serieId": "serie-a",
+          "semaine": 16,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s16-5",
+          "serieId": "serie-a",
+          "semaine": 16,
+          "domicile": "Acren B",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s16-6",
+          "serieId": "serie-a",
+          "semaine": 16,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s17-1",
+          "serieId": "serie-a",
+          "semaine": 17,
+          "domicile": "CTT Frameries A",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s17-2",
+          "serieId": "serie-a",
+          "semaine": 17,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s17-3",
+          "serieId": "serie-a",
+          "semaine": 17,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s17-4",
+          "serieId": "serie-a",
+          "semaine": 17,
+          "domicile": "Allain C",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s17-5",
+          "serieId": "serie-a",
+          "semaine": 17,
+          "domicile": "Antoing A",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s17-6",
+          "serieId": "serie-a",
+          "semaine": 17,
+          "domicile": "Cajmir F",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s18-1",
+          "serieId": "serie-a",
+          "semaine": 18,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s18-2",
+          "serieId": "serie-a",
+          "semaine": 18,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s18-3",
+          "serieId": "serie-a",
+          "semaine": 18,
+          "domicile": "Acren B",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s18-4",
+          "serieId": "serie-a",
+          "semaine": 18,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s18-5",
+          "serieId": "serie-a",
+          "semaine": 18,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s18-6",
+          "serieId": "serie-a",
+          "semaine": 18,
+          "domicile": "Cajmir F",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s19-1",
+          "serieId": "serie-a",
+          "semaine": 19,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s19-2",
+          "serieId": "serie-a",
+          "semaine": 19,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s19-3",
+          "serieId": "serie-a",
+          "semaine": 19,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s19-4",
+          "serieId": "serie-a",
+          "semaine": 19,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s19-5",
+          "serieId": "serie-a",
+          "semaine": 19,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s19-6",
+          "serieId": "serie-a",
+          "semaine": 19,
+          "domicile": "Allain C",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s20-1",
+          "serieId": "serie-a",
+          "semaine": 20,
+          "domicile": "Acren B",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s20-2",
+          "serieId": "serie-a",
+          "semaine": 20,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s20-3",
+          "serieId": "serie-a",
+          "semaine": 20,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s20-4",
+          "serieId": "serie-a",
+          "semaine": 20,
+          "domicile": "Cajmir F",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s20-5",
+          "serieId": "serie-a",
+          "semaine": 20,
+          "domicile": "Antoing A",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s20-6",
+          "serieId": "serie-a",
+          "semaine": 20,
+          "domicile": "Allain C",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s21-1",
+          "serieId": "serie-a",
+          "semaine": 21,
+          "domicile": "CTT Frameries A",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s21-2",
+          "serieId": "serie-a",
+          "semaine": 21,
+          "domicile": "Acren B",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s21-3",
+          "serieId": "serie-a",
+          "semaine": 21,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Cajmir F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s21-4",
+          "serieId": "serie-a",
+          "semaine": 21,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s21-5",
+          "serieId": "serie-a",
+          "semaine": 21,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s21-6",
+          "serieId": "serie-a",
+          "semaine": 21,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s22-1",
+          "serieId": "serie-a",
+          "semaine": 22,
+          "domicile": "Gpv Ath D",
+          "exterieur": "CTT Frameries A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-a-s22-2",
+          "serieId": "serie-a",
+          "semaine": 22,
+          "domicile": "Cajmir F",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s22-3",
+          "serieId": "serie-a",
+          "semaine": 22,
+          "domicile": "Antoing A",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s22-4",
+          "serieId": "serie-a",
+          "semaine": 22,
+          "domicile": "Allain C",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s22-5",
+          "serieId": "serie-a",
+          "semaine": 22,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-a-s22-6",
+          "serieId": "serie-a",
+          "semaine": 22,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s1-1",
+          "serieId": "serie-b",
+          "semaine": 1,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s1-2",
+          "serieId": "serie-b",
+          "semaine": 1,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s1-3",
+          "serieId": "serie-b",
+          "semaine": 1,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s1-4",
+          "serieId": "serie-b",
+          "semaine": 1,
+          "domicile": "Acren B",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s1-5",
+          "serieId": "serie-b",
+          "semaine": 1,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s1-6",
+          "serieId": "serie-b",
+          "semaine": 1,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s2-1",
+          "serieId": "serie-b",
+          "semaine": 2,
+          "domicile": "Antoing A",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s2-2",
+          "serieId": "serie-b",
+          "semaine": 2,
+          "domicile": "Allain C",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s2-3",
+          "serieId": "serie-b",
+          "semaine": 2,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s2-4",
+          "serieId": "serie-b",
+          "semaine": 2,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s2-5",
+          "serieId": "serie-b",
+          "semaine": 2,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s2-6",
+          "serieId": "serie-b",
+          "semaine": 2,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s3-1",
+          "serieId": "serie-b",
+          "semaine": 3,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s3-2",
+          "serieId": "serie-b",
+          "semaine": 3,
+          "domicile": "Antoing A",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s3-3",
+          "serieId": "serie-b",
+          "semaine": 3,
+          "domicile": "Bon-Secours G",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s3-4",
+          "serieId": "serie-b",
+          "semaine": 3,
+          "domicile": "Gpv Ath D",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s3-5",
+          "serieId": "serie-b",
+          "semaine": 3,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s3-6",
+          "serieId": "serie-b",
+          "semaine": 3,
+          "domicile": "Acren B",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s4-1",
+          "serieId": "serie-b",
+          "semaine": 4,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s4-2",
+          "serieId": "serie-b",
+          "semaine": 4,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s4-3",
+          "serieId": "serie-b",
+          "semaine": 4,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s4-4",
+          "serieId": "serie-b",
+          "semaine": 4,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s4-5",
+          "serieId": "serie-b",
+          "semaine": 4,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s4-6",
+          "serieId": "serie-b",
+          "semaine": 4,
+          "domicile": "Acren B",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s5-1",
+          "serieId": "serie-b",
+          "semaine": 5,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s5-2",
+          "serieId": "serie-b",
+          "semaine": 5,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s5-3",
+          "serieId": "serie-b",
+          "semaine": 5,
+          "domicile": "Allain C",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s5-4",
+          "serieId": "serie-b",
+          "semaine": 5,
+          "domicile": "Antoing A",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s5-5",
+          "serieId": "serie-b",
+          "semaine": 5,
+          "domicile": "Bon-Secours G",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s5-6",
+          "serieId": "serie-b",
+          "semaine": 5,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s6-1",
+          "serieId": "serie-b",
+          "semaine": 6,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s6-2",
+          "serieId": "serie-b",
+          "semaine": 6,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s6-3",
+          "serieId": "serie-b",
+          "semaine": 6,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s6-4",
+          "serieId": "serie-b",
+          "semaine": 6,
+          "domicile": "Acren B",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s6-5",
+          "serieId": "serie-b",
+          "semaine": 6,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s6-6",
+          "serieId": "serie-b",
+          "semaine": 6,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s7-1",
+          "serieId": "serie-b",
+          "semaine": 7,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s7-2",
+          "serieId": "serie-b",
+          "semaine": 7,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s7-3",
+          "serieId": "serie-b",
+          "semaine": 7,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s7-4",
+          "serieId": "serie-b",
+          "semaine": 7,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s7-5",
+          "serieId": "serie-b",
+          "semaine": 7,
+          "domicile": "Allain C",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s7-6",
+          "serieId": "serie-b",
+          "semaine": 7,
+          "domicile": "Antoing A",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s8-1",
+          "serieId": "serie-b",
+          "semaine": 8,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s8-2",
+          "serieId": "serie-b",
+          "semaine": 8,
+          "domicile": "Acren B",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s8-3",
+          "serieId": "serie-b",
+          "semaine": 8,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s8-4",
+          "serieId": "serie-b",
+          "semaine": 8,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s8-5",
+          "serieId": "serie-b",
+          "semaine": 8,
+          "domicile": "Bon-Secours G",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s8-6",
+          "serieId": "serie-b",
+          "semaine": 8,
+          "domicile": "Antoing A",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s9-1",
+          "serieId": "serie-b",
+          "semaine": 9,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s9-2",
+          "serieId": "serie-b",
+          "semaine": 9,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s9-3",
+          "serieId": "serie-b",
+          "semaine": 9,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s9-4",
+          "serieId": "serie-b",
+          "semaine": 9,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s9-5",
+          "serieId": "serie-b",
+          "semaine": 9,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s9-6",
+          "serieId": "serie-b",
+          "semaine": 9,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s10-1",
+          "serieId": "serie-b",
+          "semaine": 10,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s10-2",
+          "serieId": "serie-b",
+          "semaine": 10,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s10-3",
+          "serieId": "serie-b",
+          "semaine": 10,
+          "domicile": "Bon-Secours G",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s10-4",
+          "serieId": "serie-b",
+          "semaine": 10,
+          "domicile": "Antoing A",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s10-5",
+          "serieId": "serie-b",
+          "semaine": 10,
+          "domicile": "Allain C",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s10-6",
+          "serieId": "serie-b",
+          "semaine": 10,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s11-1",
+          "serieId": "serie-b",
+          "semaine": 11,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s11-2",
+          "serieId": "serie-b",
+          "semaine": 11,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s11-3",
+          "serieId": "serie-b",
+          "semaine": 11,
+          "domicile": "Acren B",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s11-4",
+          "serieId": "serie-b",
+          "semaine": 11,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s11-5",
+          "serieId": "serie-b",
+          "semaine": 11,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s11-6",
+          "serieId": "serie-b",
+          "semaine": 11,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s12-1",
+          "serieId": "serie-b",
+          "semaine": 12,
+          "domicile": "Bon-Secours G",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s12-2",
+          "serieId": "serie-b",
+          "semaine": 12,
+          "domicile": "Antoing A",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s12-3",
+          "serieId": "serie-b",
+          "semaine": 12,
+          "domicile": "Allain C",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s12-4",
+          "serieId": "serie-b",
+          "semaine": 12,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s12-5",
+          "serieId": "serie-b",
+          "semaine": 12,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s12-6",
+          "serieId": "serie-b",
+          "semaine": 12,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s13-1",
+          "serieId": "serie-b",
+          "semaine": 13,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s13-2",
+          "serieId": "serie-b",
+          "semaine": 13,
+          "domicile": "Bon-Secours G",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s13-3",
+          "serieId": "serie-b",
+          "semaine": 13,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s13-4",
+          "serieId": "serie-b",
+          "semaine": 13,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s13-5",
+          "serieId": "serie-b",
+          "semaine": 13,
+          "domicile": "Acren B",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s13-6",
+          "serieId": "serie-b",
+          "semaine": 13,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s14-1",
+          "serieId": "serie-b",
+          "semaine": 14,
+          "domicile": "Allain C",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s14-2",
+          "serieId": "serie-b",
+          "semaine": 14,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s14-3",
+          "serieId": "serie-b",
+          "semaine": 14,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s14-4",
+          "serieId": "serie-b",
+          "semaine": 14,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s14-5",
+          "serieId": "serie-b",
+          "semaine": 14,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s14-6",
+          "serieId": "serie-b",
+          "semaine": 14,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s15-1",
+          "serieId": "serie-b",
+          "semaine": 15,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s15-2",
+          "serieId": "serie-b",
+          "semaine": 15,
+          "domicile": "Allain C",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s15-3",
+          "serieId": "serie-b",
+          "semaine": 15,
+          "domicile": "Antoing A",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s15-4",
+          "serieId": "serie-b",
+          "semaine": 15,
+          "domicile": "Bon-Secours G",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s15-5",
+          "serieId": "serie-b",
+          "semaine": 15,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s15-6",
+          "serieId": "serie-b",
+          "semaine": 15,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s16-1",
+          "serieId": "serie-b",
+          "semaine": 16,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s16-2",
+          "serieId": "serie-b",
+          "semaine": 16,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s16-3",
+          "serieId": "serie-b",
+          "semaine": 16,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s16-4",
+          "serieId": "serie-b",
+          "semaine": 16,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s16-5",
+          "serieId": "serie-b",
+          "semaine": 16,
+          "domicile": "Acren B",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s16-6",
+          "serieId": "serie-b",
+          "semaine": 16,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s17-1",
+          "serieId": "serie-b",
+          "semaine": 17,
+          "domicile": "CTT Frameries B",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s17-2",
+          "serieId": "serie-b",
+          "semaine": 17,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s17-3",
+          "serieId": "serie-b",
+          "semaine": 17,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s17-4",
+          "serieId": "serie-b",
+          "semaine": 17,
+          "domicile": "Allain C",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s17-5",
+          "serieId": "serie-b",
+          "semaine": 17,
+          "domicile": "Antoing A",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s17-6",
+          "serieId": "serie-b",
+          "semaine": 17,
+          "domicile": "Bon-Secours G",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s18-1",
+          "serieId": "serie-b",
+          "semaine": 18,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s18-2",
+          "serieId": "serie-b",
+          "semaine": 18,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s18-3",
+          "serieId": "serie-b",
+          "semaine": 18,
+          "domicile": "Acren B",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s18-4",
+          "serieId": "serie-b",
+          "semaine": 18,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s18-5",
+          "serieId": "serie-b",
+          "semaine": 18,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s18-6",
+          "serieId": "serie-b",
+          "semaine": 18,
+          "domicile": "Bon-Secours G",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s19-1",
+          "serieId": "serie-b",
+          "semaine": 19,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s19-2",
+          "serieId": "serie-b",
+          "semaine": 19,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s19-3",
+          "serieId": "serie-b",
+          "semaine": 19,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s19-4",
+          "serieId": "serie-b",
+          "semaine": 19,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s19-5",
+          "serieId": "serie-b",
+          "semaine": 19,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s19-6",
+          "serieId": "serie-b",
+          "semaine": 19,
+          "domicile": "Allain C",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s20-1",
+          "serieId": "serie-b",
+          "semaine": 20,
+          "domicile": "Acren B",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s20-2",
+          "serieId": "serie-b",
+          "semaine": 20,
+          "domicile": "Palette Huissignies B",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s20-3",
+          "serieId": "serie-b",
+          "semaine": 20,
+          "domicile": "Gpv Ath D",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s20-4",
+          "serieId": "serie-b",
+          "semaine": 20,
+          "domicile": "Bon-Secours G",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s20-5",
+          "serieId": "serie-b",
+          "semaine": 20,
+          "domicile": "Antoing A",
+          "exterieur": "Royal Trefle Lens - Herchies A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s20-6",
+          "serieId": "serie-b",
+          "semaine": 20,
+          "domicile": "Allain C",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s21-1",
+          "serieId": "serie-b",
+          "semaine": 21,
+          "domicile": "CTT Frameries B",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s21-2",
+          "serieId": "serie-b",
+          "semaine": 21,
+          "domicile": "Acren B",
+          "exterieur": "Gpv Ath D",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s21-3",
+          "serieId": "serie-b",
+          "semaine": 21,
+          "domicile": "Pg Quaregnon/Wasmuel B",
+          "exterieur": "Bon-Secours G",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s21-4",
+          "serieId": "serie-b",
+          "semaine": 21,
+          "domicile": "Hyon - Cuesmes E",
+          "exterieur": "Antoing A",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s21-5",
+          "serieId": "serie-b",
+          "semaine": 21,
+          "domicile": "R.R. Basecles F",
+          "exterieur": "Allain C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s21-6",
+          "serieId": "serie-b",
+          "semaine": 21,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "Palette Leuzoise C",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s22-1",
+          "serieId": "serie-b",
+          "semaine": 22,
+          "domicile": "Gpv Ath D",
+          "exterieur": "CTT Frameries B",
+          "score": "",
+          "date": "",
+          "joueur_ext": [],
+          "joueur_dom": []
+        },
+        {
+          "id": "match-serie-b-s22-2",
+          "serieId": "serie-b",
+          "semaine": 22,
+          "domicile": "Bon-Secours G",
+          "exterieur": "Palette Huissignies B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s22-3",
+          "serieId": "serie-b",
+          "semaine": 22,
+          "domicile": "Antoing A",
+          "exterieur": "Acren B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s22-4",
+          "serieId": "serie-b",
+          "semaine": 22,
+          "domicile": "Allain C",
+          "exterieur": "Pg Quaregnon/Wasmuel B",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s22-5",
+          "serieId": "serie-b",
+          "semaine": 22,
+          "domicile": "Palette Leuzoise C",
+          "exterieur": "Hyon - Cuesmes E",
+          "score": "",
+          "date": ""
+        },
+        {
+          "id": "match-serie-b-s22-6",
+          "serieId": "serie-b",
+          "semaine": 22,
+          "domicile": "Royal Trefle Lens - Herchies A",
+          "exterieur": "R.R. Basecles F",
+          "score": "",
+          "date": ""
+        }
+      ]
+    }
+  ]
+}
+
+

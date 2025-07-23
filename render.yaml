@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: json-server-persist
+    env: node
+    plan: starter
+    disk:
+      name: json-db-disk
+      size_gb: 1
+    buildCommand: npm install
+    startCommand: |
+      if [ ! -f /data/db.json ]; then
+        cp ./db-init.json /data/db.json
+      fi
+      node index.js
+    mounts:
+      - path: /data
+        disk: json-db-disk
