@@ -4,7 +4,6 @@
   "description": "Backend json-server avec disque persistant pour Render",
   "main": "index.js",
   "scripts": {
-    "build": "echo 'No build step required'",
     "start": "sh -c 'if [ ! -f /data/db.json ]; then cp ./db-init.json /data/db.json; fi && node index.js'"
   },
   "repository": {
