@@ -5,8 +5,13 @@ services:
     plan: starter
     buildCommand: npm install
     startCommand: |
+      echo "Vérification de l'existence de /data/db.json..."
       if [ ! -f /data/db.json ]; then
+        echo "Fichier /data/db.json manquant. Copie de db-init.json..."
         cp ./db-init.json /data/db.json
+        echo "Fichier /data/db.json créé."
+      else
+        echo "Fichier /data/db.json déjà présent."
       fi
       node index.js
     disks:
