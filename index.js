@@ -1,26 +1,13 @@
-const jsonServer = require("json-server");
+const jsonServer = require('json-server');
+const path = require('path');
 const server = jsonServer.create();
-const router = jsonServer.router("/data/db.json"); // <-- modifié ici
+const router = jsonServer.router(path.join('/data', 'db.json'));
 const middlewares = jsonServer.defaults();
-const cors = require("cors");
-const port = process.env.PORT || 10000; // Utilisation du port 10000 pour Render
-
-// Configuration CORS avancée
-server.use(cors({
-    origin: '*', // Autorise toutes les origines
-    methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
-    allowedHeaders: ['Content-Type', 'Authorization']
-}));
-
-// Middleware pour déboguer les requêtes
-server.use((req, res, next) => {
-    console.log(`${req.method} ${req.url}`);
-    next();
-});
 
 server.use(middlewares);
 server.use(router);
 
+const port = process.env.PORT || 10000; // Render définit PORT
 server.listen(port, () => {
-    console.log(`JSON Server est démarré sur le port ${port}`);
+    console.log(`JSON Server is running on port ${port}`);
 });
