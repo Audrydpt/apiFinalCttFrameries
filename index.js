@@ -14,7 +14,7 @@ app.use(middlewares);
 // Monte ton json-server sur /api
 app.use('/api', router);
 
-// ===== ROUTES TABT =====
+/* ===== ROUTES TABT =====
 
 app.get('/tabt/test', async (req, res) => {
     const url = 'https://api.frenoy.net/TabTAPI/TabTAPI.asmx?wsdl';
@@ -52,7 +52,7 @@ app.get('/tabt/test', async (req, res) => {
     }
 });
 
-
+*/
 
 // ===== START SERVER =====
 const port = process.env.PORT || 10000; // Render définit PORT
