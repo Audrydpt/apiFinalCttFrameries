@@ -17,23 +17,37 @@ app.use('/api', router);
 // ===== ROUTES TABT =====
 
 app.get('/tabt/test', async (req, res) => {
-    const url = 'https://api-tabt.frenoy.net/TabTAPI/TabTAPI.asmx?wsdl';
+    const url = 'https://api.frenoy.net/TabTAPI/TabTAPI.asmx?wsdl';
 
     try {
+        console.log('🔄 Connexion à l\'API TABT...');
         const client = await soap.createClientAsync(url);
+        console.log('✅ Client SOAP créé avec succès');
 
         const args = {
-            System: "CTT-Frameries-App", // identifiant libre pour ton app
+            System: "CTT-Frameries-App",
             Version: "1.0",
-            // User: "ton_username",     // optionnel
-            // Password: "ton_password"  // optionnel
         };
+
+        console.log('📤 Envoi de la requête avec les paramètres:', JSON.stringify(args, null, 2));
 
         const [result] = await client.TestAsync({ Request: args });
 
-        res.json(result.TestResponse); // La doc dit que la réponse est TestResponse
+        console.log('📥 Réponse brute complète:', JSON.stringify(result, null, 2));
+        console.log('📥 Type de la réponse:', typeof result);
+        console.log('📥 Clés disponibles dans result:', Object.keys(result));
+
+        if (result.TestResponse) {
+            console.log('📥 TestResponse:', JSON.stringify(result.TestResponse, null, 2));
+            console.log('📥 Type de TestResponse:', typeof result.TestResponse);
+            console.log('📥 Clés dans TestResponse:', Object.keys(result.TestResponse));
+        }
+
+        res.json(result.TestResponse);
     } catch (err) {
-        console.error("Erreur API TABT:", err);
+        console.error("❌ Erreur complète:", err);
+        console.error("❌ Message d'erreur:", err.message);
+        console.error("❌ Stack trace:", err.stack);
         res.status(500).json({ error: "Impossible de joindre TABT" });
     }
 });
