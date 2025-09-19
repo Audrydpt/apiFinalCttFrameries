@@ -6,22 +6,19 @@ const admin = require("firebase-admin");
 const app = express();
 app.use(express.json());
 
-// ===== INIT FIREBASE ADMIN (sans variable d'environnement) =====
-const serviceAccount = {
-    "type": "service_account",
-    "project_id": "ctt-frameries",
-    "private_key_id": "c57ba3b66e3099ed0214d4c59e7dbf144bedf16f",
-    "private_key": `-----BEGIN PRIVATE KEY-----
-MIIEvgIBADAN...
------END PRIVATE KEY-----`,
-    "client_email": "firebase-adminsdk-fbsvc@ctt-frameries.iam.gserviceaccount.com",
-    "client_id": "112517379689733232787",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc@ctt-frameries.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-};
+// ===== INIT FIREBASE ADMIN avec variable d'environnement =====
+if (!process.env.GOOGLE_SERVICE_ACCOUNT) {
+    throw new Error("La variable d'environnement GOOGLE_SERVICE_ACCOUNT est manquante !");
+}
+
+let serviceAccount;
+try {
+    serviceAccount = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
+
+} catch (err) {
+    console.error("Erreur lors du parsing de GOOGLE_SERVICE_ACCOUNT:", err);
+    process.exit(1);
+}
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
