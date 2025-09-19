@@ -9,9 +9,13 @@ app.use(express.json());
 // ===== INIT FIREBASE ADMIN =====
 const serviceAccount = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT);
 
+// Remplace les \n littéraux par de vrais retours à la ligne
+serviceAccount.private_key = serviceAccount.private_key.replace(/\\n/g, '\n');
+
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount),
 });
+
 
 // ===== JSON SERVER =====
 const router = jsonServer.router(path.join("/data", "db.json"));
